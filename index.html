@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creche Raimunda Carvalho</title>
+	<meta charset="UTF-8"/>
+	<title>Creche Raimunda Carvalho</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+
 </head>
+<script  language="javascript" src="_javascript/funcoes.js"></script>
 <body>
-    <h1>Escola Raimunda Carvalho</h1>
+	<div id="interface">
+		<header id="cabecalho">
+		<hgroup>
+			<h1>Creche Raimunda Carvalho</h1>
+			<h2>O melhor lugar para as crianças</h2>
+		</hgroup>
+
+		<img  id="icone"src="_imagens/glass-oculos-preto-peq.png"/>
+		<nav id="menu">
+			<h1>Menu Principal</h1>
+			<ul onmouseout="mudaFoto('glass-oculos-preto-peq')">
+				<li onmouseover="mudaFoto('home')" ><a href="index.html">Home<a></li>
+				<li onmouseover="mudaFoto('especificacoes')" ><a href="specs.html">Especificações</a></li>
+				<li onmouseover="mudaFoto('fotos')"><a href="fotos.html">Fotos</a></li>
+				<li onmouseover="mudaFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+				<li onmouseover="mudaFoto('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+			</ul>
+		</nav>
+		</header>
+
+	<section id="corpo">
+		<article id="noticia-principal">
+			<header id="cabecalho-artigo">
+		<hgroup>
+			<h3>Topico > Descriçao</h3>
+			<h1>Sabia tudo sobre o dia das crianças na creche</h1>
+			<h2>por Moises Bringel</h2>
+			<h3 class="direita">Atualizado em 27/setembro/2023</h3>
+		</hgroup>
+			</header>
+
+		<h2>O que é</h2>
+		<p>O <span style="font-weight: 900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada.Também chamado de <a href="http://www.google.com.br" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+
+		<figure class="foto-legenda">
+			<img src="_imagens/glass-quadro-homem-mulher.jpg">
+			<figcaption>
+				<h3>Google Glass</h3>
+				<p>Uma nova maneira de ver o mundo.</p>
+			</figcaption>
+		</figure>
+
+		<h2>Data de lançamento</h2>
+		<p>textotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotexto.</p>
+
+		<h2>Opniao dos pais</h2>
+		<table id="tabelaspec">
+		<caption>Tabela Técnica do Google Glass <span>Mar/2013</caption></span>
+
+		<tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
+		<tr><td rowspan="2" class="ce">Camera</td><td class="cd"> 5MP para fotos</td></tr>
+		<tr><td class="cd">720p para vídeos</td></tr>
+		<tr><td rowspan="2" class="ce">Conectividade</td><td class="cd"> Wi-Fi</td></tr>
+		<tr><td class="cd">Bluetooth</td></tr>
+		<tr><td class="ce">Memória Interna</td><td class="cd">12GB</td></tr>
+		</table>
+
+		<h2>Como funciona</h2>
+		<p>textotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotexto.</p>
+
+		<h2>O que você pode fazer para aumentar a qualidade de ensino</h2>
+		<p>O vídeo de divulgação mostra o empenho dos professores como “super-<wbr/>humanos”, já que fazem seu trabalho com muito amor e carinho.</p>
+
+		[AQUI ENTRA UM VÍDEO]
+		</article>
+		</section>
+		<aside id="lateral">
+		<h1>Outras Notícias</h1>
+		<h2>Vídeo mais recente</h2>
+
+		[AQUI ENTRA UM VÍDEO]
+		
+		<h2>Novidades da creche</h2>
+		<p>textotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotexto.</p>
+
+		<p>textotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotexto.</p>
+		</aside>
+
+		<footer id="rodape">
+		<p>Copyright &copy; 2013 - by Pablo Rocha <br/>
+		<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
+		<a href="http://twitter.com/cursosemvideo" target="_blank">Twitter<a/> </p>
+		</footer>
+	</div>	
 </body>
 </html>
